@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
+//components
+import PlayerCard from './PlayerCard';
+
 class Players extends Component {
     constructor() {
         super();
@@ -24,7 +27,8 @@ class Players extends Component {
     render() {
         return(
             <div>
-                <h1>Hello There</h1>
+                <h1>Players And Their Searches</h1>
+                <PlayerCard players = {this.state.players} />
             </div>
         )
     }
