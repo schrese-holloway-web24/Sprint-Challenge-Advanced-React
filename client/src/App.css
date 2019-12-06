@@ -35,3 +35,8 @@
 .navbar {
   background: grey;
 }
+
+.dark-mode{
+  background: #58546d;
+  color: #f1f0f4;
+}
