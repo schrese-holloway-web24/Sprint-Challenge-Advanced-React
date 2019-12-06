@@ -1,6 +1,7 @@
 import React from 'react';
 
 const NavBar = () => {
+    // const[darkMode, setDarkMode] = useState(false)
 
     return(
         <nav className = 'navbar'>
