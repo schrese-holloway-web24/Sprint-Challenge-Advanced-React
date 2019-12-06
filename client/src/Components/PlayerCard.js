@@ -3,9 +3,9 @@ import React from 'react';
 const PlayerCard = (props) => {
     // console.log(props)
     return(
-        <div>
+        <div className = 'players'>
             {props.players.map(player => (
-                <div key = {player.id}>
+                <div key = {player.id} className = 'player'>
                     <h2>{player.name}</h2>
                     <h4>{player.country}</h4>
                     <h4>Searches: {player.searches}</h4>
