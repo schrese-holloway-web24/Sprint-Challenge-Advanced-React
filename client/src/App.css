@@ -31,3 +31,45 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background: grey;
+}
+
+.dark-mode{
+  background: #58546d;
+  color: #f1f0f4;
+}
+
+.change-view .players{
+  display: flex;
+  flex-direction: column;
+}
+
+.change-view .player{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 50px;
+  margin: 0;
+  background: none;
+}
+.change-view .player h2, h4{
+  padding: 5%;
+}
+
+.players {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  background: #d25757;
+  margin: 2%;
+}
+
